@@ -9,7 +9,7 @@ import com.andrewvora.example.daggerexperiments.di.DaggerAppComponent
  * Created on 11/4/2018.
  * @author Andrew Vorakrajangthiti
  */
-class DaggerApplication : Application() {
+class MyApplication : Application() {
 
     val appComponent: AppComponent by lazy {
         DaggerAppComponent.builder().build()

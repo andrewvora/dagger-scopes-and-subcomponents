@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun createActivityComponent(): ActivityComponent {
-        return (application as DaggerApplication)
+        return (application as MyApplication)
             .appComponent
             .activityComponent(ActivityModule())
     }
